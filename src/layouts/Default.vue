@@ -1,7 +1,7 @@
 <template>
   <div class="font-sans text-gray-800 leading-normal flex flex-col min-h-screen">
-    <header class="bg-blue-600 py-5 text-gray-300">
-      <nav class="container mx-auto flex justify-between items-center">
+    <header class="bg-blue-700 py-5 text-gray-300 text-lg">
+      <nav class="mx-auto flex justify-between items-center px-5">
         <g-link exact to="/">
           <g-image class="h-auto w-2/5" src="../assets/images/iHsrs-logo.png" alt="iHsrs logo" />
         </g-link>
@@ -13,7 +13,7 @@
         <g-link class="hover:text-white" to="/contact">Contact</g-link>
       </nav>
     </header>
-    <div class="flex-grow container">
+    <div class="flex-grow">
       <slot />
     </div>
     <Footer />

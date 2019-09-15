@@ -6,6 +6,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Lato',
         'Roboto',
         '-apple-system',
         'BlinkMacSystemFont',
