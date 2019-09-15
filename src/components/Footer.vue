@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-blue-700 text-gray-300">
-    <div class="container mx-auto flex items-center justify-between py-4">
+    <div class="px-5 mx-auto flex items-center justify-between py-4">
       <div class="text-sm">
         Copyright {{ getCurrentYear }} -
         <a :href="href">iHs Retained Search</a>
