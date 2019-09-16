@@ -3,7 +3,7 @@
     <div class="px-5 mx-auto flex items-center justify-between py-4">
       <div class="text-sm">
         Copyright {{ getCurrentYear }} -
-        <a :href="href">iHs Retained Search</a>
+        <a :href="href">IHSRS</a>
       </div>
       <ul class="flex items-center">
         <li class="mr-8">
@@ -16,7 +16,7 @@
             <font-awesome :icon="['fab', 'twitter']" class="text-lg" />
           </a>
         </li>
-        <li class="mr-8">
+        <li>
           <a href="https://www.linkedin.com/company/ihs-professional-services/">
             <font-awesome :icon="['fab', 'linkedin']" class="text-lg" />
           </a>
@@ -30,7 +30,7 @@
 export default {
   data() {
     return {
-      href: "https://www.ihsrs.com"
+      href: "http://www.ihsps.com"
     };
   },
   computed: {
