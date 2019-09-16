@@ -64,6 +64,7 @@ export default {
     url("~@/assets/images/hero.jpg");
   height: calc(100vh - 146px);
 }
+
 .form-bg {
   background: rgb(255, 255, 255, 0.8);
 }
